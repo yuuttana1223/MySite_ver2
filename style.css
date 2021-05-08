@@ -44,6 +44,11 @@ nav {
   color: white;
 }
 
+.nav-list-item a {
+  text-decoration: none;
+  color: white;
+}
+
 .navigation {
   width: 960px;
   height: 70px;
@@ -65,12 +70,27 @@ nav {
 .main-visual {
   width: 100%;
   height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-text {
   width: 650px;
   height: 650px;
   margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.main-visual-title {
+  padding-top: 220px;
+  font-size: 60px;
+}
+
+.main-visual-subtitle {
+  font-size: 18px;
+  line-height: 38px;
 }
 
 .main {
